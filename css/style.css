@@ -29,20 +29,6 @@ h1 {
     padding-top: 50px;
 }
 
-nav a {
-	color: #4e8bc4;
-	transition: 0.15s;
-	font-size: large;
-	padding: 20px 24px;
-}
-
-nav a:hover {
-	font-weight: bolder;
-	color: #202124;
-	background-color: rgba(32, 33, 36, 0.04);
-	border-bottom: solid 5px #4E8BC4;
-}
-
 #intro {
 	background: url('http://p-schub.lima-city.de/img/sky.jpeg') no-repeat center
 		center fixed;
@@ -85,19 +71,33 @@ a {
 header {
 	border-bottom: 1px solid #dadce0;
 	height: 60px;
-	display: grid;
-	place-items: center;
-}
-
-nav {
-	height: 100%;
-}
-
-nav ul {
+	/* display: grid; */
+	/* place-items: center; */
 	display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-nav ul li {
-	display: inline;
-	padding: 10px;
+nav a {
+	color: #4e8bc4;
+	transition: 0.15s;
+	font-size: large;
+	padding: 20px 24px;
+}
+
+nav a:hover {
+	font-weight: bolder;
+	color: #202124;
+	background-color: rgba(32, 33, 36, 0.04);
+	border-bottom: solid 5px #4E8BC4;
+}
+.brand {
+    padding: 0 20px;
+}
+
+.brand a {
+    border-bottom: #4E8BC4 5px solid;
+    font-weight: 900;
+	font-size: 24px;
+	color: #e7e7e7;
 }
