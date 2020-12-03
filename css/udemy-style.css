@@ -9,23 +9,25 @@ body {
 	display: grid;
 	place-items: center;
 }
+.container-xs {
+    display: grid;
+    place-items: center;
+    width: 50%;
+}
 
 ul {
 	list-style: none;
 }
 
-.bg-primary {
-    background-color: #4E8BC4;
-}
-
-.brand-text {
-    color: #4E8BC4;
-}
-
 hr {
     border-top: none;
-    border-bottom: solid 1px #4E8BC4;
+    border-left: none;
+    border-bottom: dotted 10px #eaf6f6;
     width: 10%;
+}
+
+h1, h2 {
+    color: #66bfbf;
 }
 
 h1 {
@@ -34,7 +36,11 @@ h1 {
 }
 
 h3 {
-	color: #4E8BC4;
+    color: #11999e;
+}
+
+p {
+    color: #40514e;
 }
 
 .d-flex {
@@ -47,9 +53,18 @@ h3 {
     padding-top: 50px;
 }
 
+.py-1 {
+    padding: 10px 0;
+}
+
+.py-5 {
+    padding: 50px 0;
+}
+
 #intro {
-	background: url('http://p-schub.lima-city.de/img/sky.jpeg') no-repeat center
-		center fixed;
+	/* background: url('http://p-schub.lima-city.de/img/sky.jpeg') no-repeat center */
+        /* center fixed; */
+    background-color: #eaf6f6;
 }
 
 .avatar {
@@ -70,7 +85,7 @@ h3 {
 
 a {
 	text-decoration: none;
-	color: #4e8bc4;
+	color: #11999e;
 }
 
 .lh-1 {
@@ -115,13 +130,17 @@ nav a:hover {
 }
 
 footer {
-	background-color: #4E8BC4;
+	background-color: #66bfbf;
 }
 
 footer a {
-	color: #e7e7e7;
+	color: #11999e;
 	transition: 0.15s;
 }
 footer a:hover {
 	color: #202124;
+}
+
+.copy {
+    color: #eaf6f6;
 }
